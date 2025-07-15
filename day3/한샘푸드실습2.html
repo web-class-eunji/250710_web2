@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한샘푸드 실습2</title>
+    <style>
+        @font-face {
+            font-family: 'NanumSquareNeoLight';
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot);
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf) format("truetype");
+        }
+
+        @font-face {
+            font-family: 'NanumSquareNeoExtraBold';
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+            src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf) format("truetype");
+        }
+
+        article {
+            width: 520px;
+            height: 400px;
+            background: #FFB289;
+            border-radius: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .text_box {
+            padding: 32px;
+            color: #572616;
+        }
+
+        .text_box > h2 {
+            font-size: 56px;
+            font-family: 'NanumSquareNeoExtraBold';
+            margin: 0;
+        }
+
+        .text_box > p {
+            font-size: 18px;
+            font-family: 'NanumSquareNeoLight';
+            line-height: 24px;
+        }
+
+        article > img {
+            position: absolute;
+            right: 40px;
+            bottom: -100px;
+            transition: 0.4s;
+        }
+
+        article:hover img {
+            /* transform: translateY(-30px); */
+            bottom: -70px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article>
+            <div class="text_box">
+                <h2>10+</h2>
+                <p>
+                    10가지 다양한 반찬 제공으로
+                    <br>
+                    한끼의 식사도 정성스럽게
+                </p>
+            </div>
+            <img src="./about_img_03.png" alt="">
+        </article>
+    </section>
+</body>
+
+</html>

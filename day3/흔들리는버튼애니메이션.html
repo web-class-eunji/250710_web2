@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>흔들리는버튼</title>
+    <style>
+        div {
+            margin: 300px;
+            text-align: center;
+        }
+        .ani_btn {
+            background-color: crimson;
+            color: #fff;
+            font-size: 20px;
+            padding: 16px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .ani_btn:hover {
+            animation-name: shake;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+        
+        @keyframes shake {
+            10% {
+                transform: rotate(5deg);
+            }
+
+            50% {
+                transform: rotate(-10deg);
+            }
+
+            100% {
+                transform: rotate(10deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="ani_btn">호버시 버튼이 흔들려요</button>
+    </div>
+</body>
+</html>
