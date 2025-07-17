@@ -1,0 +1,26 @@
+.d_flex {
+    display: flex;
+}
+
+.bt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ac {
+    display: flex;
+    align-items: center;
+}
+
+.tc {
+    text-align: center;
+}
+
+
+/* :root {
+    --com1_bg_color: blue;
+    --com2_f_color: skyblue;
+
+    --com2_bg_color: rgb(140, 255, 0);
+    --com2_f_color: rgb(0, 96, 88);
+} */

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./common.css">
+    <style>
+        :root {
+            --com1_bg_color: blue;
+            --com2_f_color: skyblue;
+
+            --com2_bg_color: rgb(140, 255, 0);
+            --com2_f_color: rgb(0, 96, 88);
+        }
+
+        button {
+            margin: 50px auto;
+            display: block;
+            padding: 16px 24px;
+            font-size: 24px;
+            background-color: var(--com2_bg_color);
+            color: #fff;
+            border-radius: 16px;
+            cursor: pointer;
+            box-shadow: 5px 10px 10px #dedede;
+        }
+
+        ul {
+            width: 1200px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        li {
+            min-width: 268px;
+            height: 150px;
+            margin: 0 16px;
+        }
+
+        button:focus+ul li {
+            animation: slide 5s forwards;
+            animation-timing-function: cubic-bezier(0.74, -0.17, 0.04, 1.27);
+        }
+
+        li:nth-child(1) {
+            background: url(./동물1.jpg);
+            background-size: cover;
+        }
+
+        li:nth-child(2) {
+            background: url(./동물2.jpg);
+            background-size: cover;
+        }
+
+        li:nth-child(3) {
+            background: url(./동물3.jpg);
+            background-size: cover;
+        }
+
+        li:nth-child(4) {
+            background: url(./동물4.jpg);
+            background-size: cover;
+        }
+
+        li:nth-child(5) {
+            background: url(./동물5.jpg);
+            background-size: cover;
+        }
+
+        li:nth-child(6) {
+            background: url(./동물6.jpg);
+            background-size: cover;
+        }
+
+        li:nth-child(7) {
+            background: url(./동물7.jpg);
+            background-size: cover;
+        }
+
+        li:nth-child(8) {
+            background: url(./동물8.jpg);
+            background-size: cover;
+        }
+
+        @keyframes slide {
+            20% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-1200px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <button>
+            동물이 지나가용
+        </button>
+        <ul class="d_flex">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+</body>
+
+</html>
