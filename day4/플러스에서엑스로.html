@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플러스에서 엑스로</title>
+    <script src="https://kit.fontawesome.com/c20f4000ab.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 50px;
+            background-color: darkcyan;
+            color: #fff;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 32px;
+        }
+
+        button {
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .btn_box > button:hover i {
+            animation-name: plus_to_close;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes plus_to_close {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(225deg)
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LOGO</h1>
+        <ul>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <li>메뉴4</li>
+        </ul>
+        <div class="btn_box">
+            <button>
+                <i class="fa-solid fa-plus fa-2xl"></i>
+            </button>
+        </div>
+    </header>
+</body>
+</html>
