@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스반응형</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            width: 200px;
+            height: 200px;
+            background: tomato;
+            margin: 16px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            /* flex-wrap: wrap; */
+        }
+
+        @media (max-width: 1600px) {
+
+            ul {
+                flex-wrap: wrap;
+            }
+
+            li {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+
+</html>
