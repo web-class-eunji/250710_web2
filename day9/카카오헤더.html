@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카카오헤더</title>
+    <script src="https://kit.fontawesome.com/c20f4000ab.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header_top,
+        .header_bottom {
+            border-bottom: 1px solid #ddd;
+            padding: 24px 100px;
+        }
+
+        .header_top,
+        .header_bottom,
+        .header_top_ul,
+        .header_bottomn_right,
+        .header_icon_box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header_icon_box > figure { 
+            width: 24px;
+            height: 24px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .header_top_ul,
+        .header_bottomn_right,
+        .header_icon_box {
+            gap: 32px;
+        }
+
+        ul a {
+            padding: 8px 16px;
+        }
+
+        .header_top_ul > li:nth-child(2) > a {
+            background: #000;
+            color: #fff;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header_top">
+            <h1>kakao</h1>
+            <nav>
+                <ul class="header_top_ul">
+                    <li>
+                        <a href="#">소개</a>
+                    </li>
+                    <li>
+                        <a href="#">기술과 서비스</a>
+                    </li>
+                    <li>
+                        <a href="#">약속과 책임</a>
+                    </li>
+                    <li>
+                        <a href="#">소식</a>
+                    </li>
+                    <li>
+                        <a href="#">투자정보</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_icon_box">
+                <figure>
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </figure>
+                <figure>
+                    <i class="fa-solid fa-globe fa-xl "></i>
+                </figure>
+                <figure>
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </figure>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <h2>카카오톡</h2>
+            <nav>
+                <ul class="header_bottomn_right">
+                    <li>
+                        <a href="#">
+                            카톡 안녕가이드
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            카톡 설명서
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            다운로드
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
