@@ -57,6 +57,47 @@
             color: #fff;
             border-radius: 50px;
         }
+
+        .hidden_icon {
+            display: none;
+        }
+
+        @media (max-width:1024px) {
+            .header_top_ul,
+            .header_icon_box > figure:nth-child(2),
+            .header_icon_box > figure:nth-child(3),
+            .header_bottomn_right > li:nth-child(1),
+            .header_bottomn_right > li:nth-child(2) {
+                display: none;
+            }
+
+            .header_icon_box > figure:nth-child(4){
+                display: block;
+            }
+
+            .header_bottom {
+                padding: 24px 150px;
+            }
+
+        }
+
+        @media (max-width: 760px){
+            .header_top {
+                padding: 16px 24px;
+            }
+
+            .header_bottom {
+                padding: 16px 50px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
     </style>
 </head>
 
@@ -93,6 +134,9 @@
                 <figure>
                     <i class="fa-solid fa-bars fa-xl"></i>
                 </figure>
+                <figure class="hidden_icon">
+                    <i class="fa-solid fa-burger fa-xl"></i>
+                </figure>
             </div>
         </div>
         <div class="header_bottom">
@@ -113,6 +157,7 @@
                         <a href="#">
                             다운로드
                         </a>
+                        <i class="fa-solid fa-download fa-xl"></i>
                     </li>
                 </ul>
             </nav>
