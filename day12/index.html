@@ -7,6 +7,7 @@
     <title>[Playlist] ✨2023 디즈니 플레이리스트는 이거지‼️ | 피아노로 듣는 디즈니 OST | Disney Piano Playlist</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/c20f4000ab.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -54,16 +55,16 @@
             </h1>
         </div>
         <div class="header_center">
-                <input type="text" placeholder="검색">
-                <button class="search_icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24"
-                        width="24" focusable="false" aria-hidden="true"
-                        style="pointer-events: none; display: inherit; width: 100%; height: 100%;">
-                        <path clip-rule="evenodd"
-                            d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z"
-                            fill-rule="evenodd"></path>
-                    </svg>
-                </button>
+            <input type="text" placeholder="검색">
+            <button class="search_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24"
+                    focusable="false" aria-hidden="true"
+                    style="pointer-events: none; display: inherit; width: 100%; height: 100%;">
+                    <path clip-rule="evenodd"
+                        d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z"
+                        fill-rule="evenodd"></path>
+                </svg>
+            </button>
             <button class="voice_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false"
                     aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;">
@@ -113,7 +114,7 @@
                     </h2>
 
                     <div class="info_wrapper">
-                        <div>
+                        <div class="info_box">
                             <div class="channel_box">
                                 <figure></figure>
                                 <div class="channel_name">
@@ -125,23 +126,33 @@
                             <div class="view_box">
                                 <div>
                                     <div class="like_box">
-                                        <button></button>
-                                        <span></span>
+                                        <button>
+                                            <i class="fa-solid fa-thumbs-up"></i>
+                                        </button>
+                                        <span>2만</span>
                                     </div>
                                     <div>
-                                        <button></button>
+                                        <button>
+                                            <i class="fa-solid fa-thumbs-down"></i>
+                                        </button>
                                     </div>
                                 </div>
                                 <div class="share">
-                                    <button></button>
+                                    <button>
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </button>
                                     <span>공유</span>
                                 </div>
                                 <div class="save">
-                                    <button></button>
+                                    <button>
+                                        <i class="fa-solid fa-download"></i>
+                                    </button>
                                     <span>오프라인저장</span>
                                 </div>
                                 <div class="more">
-                                    <button></button>
+                                    <button>
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +178,9 @@
                 <div class="comment_count">
                     <h2>댓글 118개</h2>
                     <div class="comment_align">
-                        <button></button>
+                        <button>
+                            <i class="fa-solid fa-filter"></i>
+                        </button>
                         <span>정렬 기준</span>
                     </div>
                 </div>
@@ -191,20 +204,208 @@
                         </p>
                         <div class="comment_icons">
                             <div class="like">
-                                <button></button>
+                                <button>
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                </button>
                                 <span>760</span>
                             </div>
                             <div class="hate">
-                                <button></button>
+                                <button>
+                                    <i class="fa-solid fa-thumbs-down"></i>
+                                </button>
                             </div>
                             <figure></figure>
                             <div class="reply">
-                                <button>답글</button>
+                                <button>
+                                    답글
+                                </button>
                             </div>
                         </div>
                     </div>
                     <div class="more">
-                        <button></button>
+                        <button>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment_content">
+                    <figure></figure>
+                    <div class="user_comment">
+                        <h2>
+                            @afterallthistimealways
+                            <span>2년 전</span>
+                        </h2>
+                        <p>
+                            이 플리에 길들여져서 다른 백예린 플리 못 듣겠어요...... 이 순서 못 잃어
+                        </p>
+                        <div class="comment_icons">
+                            <div class="like">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                </button>
+                                <span>760</span>
+                            </div>
+                            <div class="hate">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-down"></i>
+                                </button>
+                            </div>
+                            <figure></figure>
+                            <div class="reply">
+                                <button>
+                                    답글
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <button>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment_content">
+                    <figure></figure>
+                    <div class="user_comment">
+                        <h2>
+                            @afterallthistimealways
+                            <span>2년 전</span>
+                        </h2>
+                        <p>
+                            이 플리에 길들여져서 다른 백예린 플리 못 듣겠어요...... 이 순서 못 잃어
+                        </p>
+                        <div class="comment_icons">
+                            <div class="like">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                </button>
+                                <span>760</span>
+                            </div>
+                            <div class="hate">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-down"></i>
+                                </button>
+                            </div>
+                            <figure></figure>
+                            <div class="reply">
+                                <button>
+                                    답글
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <button>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment_content">
+                    <figure></figure>
+                    <div class="user_comment">
+                        <h2>
+                            @afterallthistimealways
+                            <span>2년 전</span>
+                        </h2>
+                        <p>
+                            이 플리에 길들여져서 다른 백예린 플리 못 듣겠어요...... 이 순서 못 잃어
+                        </p>
+                        <div class="comment_icons">
+                            <div class="like">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                </button>
+                                <span>760</span>
+                            </div>
+                            <div class="hate">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-down"></i>
+                                </button>
+                            </div>
+                            <figure></figure>
+                            <div class="reply">
+                                <button>
+                                    답글
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <button>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment_content">
+                    <figure></figure>
+                    <div class="user_comment">
+                        <h2>
+                            @afterallthistimealways
+                            <span>2년 전</span>
+                        </h2>
+                        <p>
+                            이 플리에 길들여져서 다른 백예린 플리 못 듣겠어요...... 이 순서 못 잃어
+                        </p>
+                        <div class="comment_icons">
+                            <div class="like">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                </button>
+                                <span>760</span>
+                            </div>
+                            <div class="hate">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-down"></i>
+                                </button>
+                            </div>
+                            <figure></figure>
+                            <div class="reply">
+                                <button>
+                                    답글
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <button>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="comment_content">
+                    <figure></figure>
+                    <div class="user_comment">
+                        <h2>
+                            @afterallthistimealways
+                            <span>2년 전</span>
+                        </h2>
+                        <p>
+                            이 플리에 길들여져서 다른 백예린 플리 못 듣겠어요...... 이 순서 못 잃어
+                        </p>
+                        <div class="comment_icons">
+                            <div class="like">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                </button>
+                                <span>760</span>
+                            </div>
+                            <div class="hate">
+                                <button>
+                                    <i class="fa-solid fa-thumbs-down"></i>
+                                </button>
+                            </div>
+                            <figure></figure>
+                            <div class="reply">
+                                <button>
+                                    답글
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <button>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </button>
                     </div>
                 </div>
             </section>
@@ -220,33 +421,362 @@
             <article class="side_video_box">
                 <ul class="side_videos">
                     <li>
-                        <a href="#">
-                            <img src="" alt="">
-                        </a>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
                         <div class="side_video_text">
                             <h2>
                                 초여름의 잔잔한 백예린...♥
                             </h2>
                             <p>학플리</p>
-                            <div class="view_text">
-                                <span>조회수 34만회</span>
-                                <span>•</span>
-                                <span>1년 전</span>
-                            </div>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
                         </div>
                         <div class="more">
-                            <button></button>
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
                         </div>
                     </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=4fjqMq_nPAo&t=1000s">
+                                <img class="side_img" src="./hqdefault.avif" alt="">
+                            </a>
+                        </figure>
+                        <div class="side_video_text">
+                            <h2>
+                                초여름의 잔잔한 백예린...♥
+                            </h2>
+                            <p>학플리</p>
+                            <p>
+                                <span>조회수 34만회 • 1년 전</span>
+                            </p>
+                        </div>
+                        <div class="more">
+                            <button>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                        </div>
+                    </li>
                 </ul>
             </article>
         </aside>
